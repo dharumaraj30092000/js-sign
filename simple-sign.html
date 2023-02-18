@@ -15,7 +15,7 @@
 					<label class="mb-3 text-muted" for="email">Email:</label>
 					<input title="enter your email" class="pad" type="email" id="loginmail" value="" placeholder="e-mail" required><br>
 					<label class="mb-3 text-muted" for="password">Password:</label>
-					<input title="enter your password" class="pad" type="password" id="loginpassword" value="" placeholder="password" required>
+					<input title="enter your password" class="pad" type="password" id="loginpassword" value="" placeholder="password" maxlength="10" required>
 				</form>
 				<div class="btn-back d-inline-block p-0">
 					<button id="get" class="sign-btn text-white text-uppercase" type="submit">sign in</button>
@@ -44,9 +44,9 @@
 					<label class="mb-3 text-muted" for="email">Email:</label>
 					<input title="enter your email" type="email" id="email" value="" placeholder="e-mail" required><br>
 					<label class="mb-3 text-muted" for="password">Password:</label>
-					<input title="enter your password" type="password" id="password" value="" placeholder="password" required><br>
+					<input title="enter your password" type="password" id="password" value="" placeholder="password" maxlength="10" required><br>
 					<label class="mb-3 text-muted" for="conpass">Conform Password:</label>
-					<input title="enter your conform password" type="password" id="conpass" value="" placeholder="confirm password" required><br>
+					<input title="enter your conform password" type="password" id="conpass" value="" placeholder="confirm password" maxlength="10" required><br>
 					<label class="mb-3 text-muted">Gender:</label>
 					<input type="radio" id="male" value="male" name="gender" required>
 					<label for="male">Male</label>
@@ -55,7 +55,7 @@
 					<label class="mb-4 text-muted" for="date">DOB:</label>
 					<input title="enter your date of birth" type="date" id="date" value=""><br>
 					<label for="phone">Mobile:</label>
-					<input type="tel" id="phone" name="phone" placeholder="mobile number" value="" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+					<input type="tel" id="phone" name="phone" placeholder="mobile number" value="" maxlength="10" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
 				</form>
 				<div class="btn-back d-inline-block p-0 m-2">
 					<button id="got" class="sign-btn text-white text-uppercase">sign up</button>
